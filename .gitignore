@@ -4,3 +4,10 @@
 # Python caching files
 __pycache__/
 *.pyc
+
+# Local data (never commit personal watch history or the scraped DB)
+data/*
+!data/.gitkeep
+*.db
+takeout/
+.ipynb_checkpoints/
